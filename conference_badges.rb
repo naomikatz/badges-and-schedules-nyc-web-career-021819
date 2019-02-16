@@ -21,4 +21,5 @@ end
 
 def printer
   return badges
+  badges.each do 
 end
