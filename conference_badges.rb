@@ -24,8 +24,8 @@ def printer
     puts badge 
 end
 
-assign_rooms(name_array).each do |room|
-   puts name
+assign_rooms(name_array).each do |assignment|
+   puts assignemt
  end 
  
 end
