@@ -20,4 +20,5 @@ end
 
 
 def printer
+  return badges
 end
