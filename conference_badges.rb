@@ -21,5 +21,5 @@ end
 
 def printer
   return badges
-  badges.each do 
+  batch_badge_creator(names).each do
 end
