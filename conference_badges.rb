@@ -22,4 +22,5 @@ end
 def printer
   return badges
   batch_badge_creator(names).each do |name|
+    puts name 
 end
