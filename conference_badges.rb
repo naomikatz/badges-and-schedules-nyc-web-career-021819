@@ -5,11 +5,11 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(names)
-  batch_message_array = []
+  badges = []
   array.each do |name|
-    batch_message_array << badge_maker(name)
+    badges << badge_maker(name)
   end
-  batch_messsage_array
+  badges
 end
 
 def assign_rooms(names)
